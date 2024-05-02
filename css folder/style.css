@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-image: linear-gradient(8deg, #fc8905 0%, #f14d5c 60%) !important;
+  width: 100%;
+  height: 60px;
+
+  padding-top: 25px;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  list-style: none;
+}
+
+li,
+a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.about > h1 {
+  margin-bottom: 100p;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+
+  display: flex;
+
+  float: left;
+}
+
+.intro-words {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  top: 300px;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 60px;
+  color: #050315;
+}
+
+.intro-words > h1 {
+  font-weight: 400;
+}
+
+.intro {
+  margin-bottom: 560px;
+}
+
+#about_inline {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.description {
+  color: #050315;
+  font-size: 19px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+#chess {
+  display: flex;
+  margin-left: 20px;
+  cursor: pointer;
+  height: 100px;
+}
