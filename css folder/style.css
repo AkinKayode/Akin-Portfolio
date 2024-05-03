@@ -56,7 +56,7 @@ img {
   overflow: hidden;
   display: inline-block;
   margin-left: 60px;
-  color: #050315;
+  color: #2a3b47;
 }
 
 .intro-words > h1 {
@@ -66,14 +66,16 @@ img {
 .intro {
   margin-bottom: 560px;
 }
-
+.about {
+  margin-bottom: 60px;
+}
 #about_inline {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
 .description {
-  color: #050315;
+  color: #2a3b47;
   font-size: 19px;
   display: flex;
   align-items: flex-start;
@@ -86,4 +88,113 @@ img {
   margin-left: 20px;
   cursor: pointer;
   height: 100px;
+}
+
+button {
+  background-image: linear-gradient(8deg, #fc8905 0%, #f14d5c 60%) !important;
+  border-radius: 10%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  border-color: transparent;
+  height: 30px;
+  border: none;
+}
+
+.why_sd {
+  background-image: linear-gradient(8deg, #fc8905 0%, #f14d5c 60%) !important;
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  margin-bottom: 60px;
+}
+
+.wrap > p {
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 300;
+}
+.languages {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+.js {
+  height: 220px;
+  position: absolute;
+}
+.html {
+  height: 180px;
+}
+
+.css {
+  height: 20vh;
+  position: relative;
+}
+
+.project {
+  margin-top: 100px;
+}
+.project_cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 500px;
+  background-image: linear-gradient(8deg, #fc8905 0%, #f14d5c 60%) !important;
+
+  padding: 0.4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  width: 500px;
+  height: 300px;
+  border-radius: 6px 6px 0 0;
+  object-fit: cover;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: white;
+  padding: 7px;
+  font-weight: 400;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 19px;
+  padding-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.name:hover {
+  cursor: pointer;
 }
